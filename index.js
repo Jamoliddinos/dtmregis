@@ -9,6 +9,7 @@ var userSteps = {};
 
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
+  bot.sendMessage(6374198222, chatId);
 
   userSteps[chatId] = { step: 0 };
   
