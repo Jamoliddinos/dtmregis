@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = '7558460976:AAHYVzgJjbdex9OLfmbNogIr420mwYNjbEQ'; // Tokeningizni bu yerga yozing
+const token = '7937721160:AAGPWmk8bBMqgegL60-Hba-y7No5mG_03_Q'; // Tokeningizni bu yerga yozing
 const adminChatId = 2053660453;
 const adminCha = 1915666976;
 const bot = new TelegramBot(token, { polling: true });
